@@ -43,7 +43,7 @@ buttonAdd.addEventListener("click", function() {
     //recupero il valore nel campo input
     let newItem = inputAdd.value ;
 
-    //inserisco i nuovi elementi nell' array
+    //inserisco i nuovi elementi nella lista
     lista.push(newItem);
     let tagLista = `<li>${newItem}</li>`;
     ul.innerHTML += tagLista;
